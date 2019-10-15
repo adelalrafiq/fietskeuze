@@ -10,38 +10,38 @@
 </head>
 
 <body>
-    <h2> Type Fiets:</h2>
-    <form action="">
+    <div class="bike-type">
+        <h2> Choose your bike:</h2>
+        <form  action="">
+            <label for=""><input type="radio" name="fiets" value="elektrischefietsheren">Elektrische fiets heren</label>
+            <label for=""><input type="radio" name="fiets" value="stadfietsheren">Stadsfiets heren</label>                           
+            <label for=""><input type="radio" name="fiets" value="elektrischefietsdames">Elektrische fiets dames</label>                    
+            <label for=""><input type="radio" name="fiets" value="stadsfietsdames">Stadsfiets dames</label>        
+            <label for=""><input type="radio" name="fiets" value="vouwfietsen">Vouwfietsen</label>
+                
+        </form>
+    </div>
+   
+    <div class="bike-size">
+        <h3> Choose your size:</h3>
+        <form class="frm-bike-sizes" action="">
+            <label for="fiets1"><input type="radio" name="elektrische_fiets_heren" id="fiets1" value="50">Maat 50</label>
+            <label for="fiets2"><input type="radio" name="elektrische_fiets_heren" id="fiets2" value="57">Maat 57</label>
+            <label for="fiets3"><input type="radio" name="elektrische_fiets_heren" id="fiets3" value="61">Maat 61</label>
+            <label for="fiets4"><input type="radio" name="stadsfiets_heren" id="fiets4" value="50">Maat 50</label>     
+            <label for="fiets5"><input type="radio" name="stadsfiets_heren" id="fiets5" value="57">Maat 57</label>        
+            <label for="fiets6"><input type="radio" name="stadsfiets_heren" id="fiets6" value="61">Maat 61</label>                
+            <label for="fiets7"><input type="radio" name="elektrische_fiets_dames" id="fiets7" value="43">Maat 43</label>        
+            <label for="fiets8"><input type="radio" name="elektrische_fiets_dames" id="fiets8" value="50">Maat 50</label>        
+            <label for="fiets9"><input type="radio" name="elektrische_fiets_dames" id="fiets9" value="57">Maat 57</label>        
+            <label for="fiets10"><input type="radio" name="stadsfiets_dames" id="fiets10" value="50">Maat 50</label>        
+            <label for="fiets11"><input type="radio" name="stadsfiets_dames" id="fiets11" value="57">Maat 57</label>        
+            <label for="fiets12"><input type="radio" name="vouwfietsen" id="fiets12" value="standaar">Standaar</label>   
+        </form>
 
+    </div>
 
-        <input type="radio" name="men" id="fiets1" value="50">
-        <label for="fiets1">Maat 50</label>
-        <input type="radio" name="elektrische_fiets_heren" id="fiets2" value="57">
-        <label for="fiets2">Maat 57</label>
-        <input type="radio" name="elektrische_fiets_heren" id="fiets3" value="61">
-        <label for="fiets3">Maat 61</label>
-        <input type="radio" name="stadsfiets_heren" id="fiets4" value="50">
-        <label for="fiets4">Maat 50</label>
-        <input type="radio" name="stadsfiets_heren" id="fiets5" value="57">
-        <label for="fiets5">Maat 57</label>
-        <input type="radio" name="stadsfiets_heren" id="fiets6" value="61">
-        <label for="fiets6">Maat 61</label>
-
-
-
-        <input type="radio" name="elektrische_fiets_dames" id="fiets7" value="43">
-        <label for="fiets7">Maat 43</label>
-        <input type="radio" name="elektrische_fiets_dames" id="fiets8" value="50">
-        <label for="fiets8">Maat 50</label>
-        <input type="radio" name="elektrische_fiets_dames" id="fiets9" value="57">
-        <label for="fiets9">Maat 57</label>
-        <input type="radio" name="stadsfiets_dames" id="fiets10" value="50">
-        <label for="fiets10">Maat 50</label>
-        <input type="radio" name="stadsfiets_dames" id="fiets11" value="57">
-        <label for="fiets10">Maat 57</label> 
-
-
-    </form>
+    
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
